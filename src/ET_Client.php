@@ -68,7 +68,7 @@ class ET_Client extends SoapClient
 
 	private $wsdlLoc, $debugSOAP, $lastHTTPCode, $clientId, 
 			$clientSecret, $appsignature, $endpoint, 
-			$tenantTokens, $tenantKey, $xmlLoc, $baseAuthUrl, $baseSoapUrl,
+			$tenantTokens = [], $tenantKey, $xmlLoc, $baseAuthUrl, $baseSoapUrl,
 			$useOAuth2Authentication, $accountId, $redirectURI, $applicationType, $authorizationCode, $scope;
 
 	private $defaultBaseSoapUrl = 'https://webservice.exacttarget.com/Service.asmx';
