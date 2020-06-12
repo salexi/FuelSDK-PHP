@@ -6,7 +6,7 @@ class ET_CacheService
 {
     private $_identifier;
     private $_cacheMinutes = 10;
-    private static $cachedSoapUrls;
+    private static $cachedSoapUrls = [];
 
     public function __construct($clientId, $clientSecret)
     {
